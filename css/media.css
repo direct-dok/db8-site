@@ -1,0 +1,288 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .header__info {
+        padding: 120px 0 149px 0;
+        background-position: right 80%;
+        background-size: 50%;
+    }
+
+    .content-block__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-block__list-item {
+        margin: 0 0 32px 0;
+    }
+
+    .what-we-do {
+        padding: 0 0 97px 0;
+    }
+
+    .footer {
+        padding: 64px 0 64px 0;
+    }
+
+    .footer .container {
+        padding: 0 124px;
+    }
+
+    .footer__top-info p {
+        max-width: 336px;
+    }
+
+    .footer__top-wrapper a {
+        max-width: 133px;
+        padding: 7px 0;
+        font-size: 16px;
+    }
+
+    .footer__bottom-wrapper ol {
+        flex-direction: column;
+    }
+
+    .footer__bottom-wrapper ol li {
+        width: calc(100% - 19px);
+        margin: 0 0 25px 19px;
+    }
+
+    .footer__bottom-copyright {
+        margin: 39px 0 0 0;
+    }
+
+    /* START CONTACT PAGE */
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .list-nav-contacts {
+        margin: 18px 0 0 0;
+    }
+
+    .header__text-element {
+        margin: 49px 0 0 0;
+    }
+
+    .contact {
+        margin: 0 0 64px 0;
+    }
+
+    .contact-wrapper {
+        margin: 57px 0 64px 0;
+    }
+
+    .footer {
+        margin: 64px 0 0 0;
+        background: #316099;
+    }
+
+    /* END CONTACT PAGE */
+}
+
+@media screen and (max-width: 667px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .list-nav {
+        margin: 24px 0 0 0;
+    }
+
+    .header__info {
+        padding: 41px 0 41px 0;
+        background: none;
+    }
+
+    .main-caption {
+        width: 100%;
+        margin: 0 0 12px 0;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .header__info-block-content {
+        max-width: 100%;
+    }
+
+    .header__info-block-content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    a.header__info-button {
+        max-width: 108px;
+        margin: 32px auto 0 auto;
+        font-size: 12px;
+        padding: 7px 0;
+    }
+
+    .third-caption {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .content-block__wrapper {
+        margin: 32px 0 0 0;
+    }
+
+    .content-block__list-item {
+        max-width: 334px;
+    }
+
+    .what-we-do {
+        padding: 0 0 64px 0;
+    }
+
+    .mask-group__wrapper {
+        margin: 82px 0 0 0;
+    }
+
+    .mask-group__wrapper {
+        flex-direction: column;
+    }
+
+    .mask-group__two,
+    .mask-group__three {
+        width: 100%;
+    }
+
+    .mask-group__wrapper>div {
+        margin: 0 0 16px 0;
+    }
+
+    .mask-group__item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .mask-group__one p {
+        right: 16px;
+        top: 16px;
+    }
+
+    .mask-group__two p,
+    .mask-group__three p {
+        left: 16px;
+        top: 26px;
+    }
+
+    .footer__top-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .container {
+        padding: 0 16px;
+    }
+
+    .footer__top-info {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer__top-info h4 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer__top-info p {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 18px 0 32px 0;
+    }
+
+    .footer__top-wrapper {
+        margin: 0 0 41px 0;
+    }
+
+    .footer__top-wrapper a {
+        margin: 40px 0 0 0;
+    }
+
+    .footer__bottom-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__bottom-wrapper ol {
+        margin: 32px 0 0 0;
+    }
+
+    .footer__bottom-copyright {
+        margin: 12px 0 0 0;
+    }
+
+    /*  */
+
+    .list-nav {
+        margin: 18px 0 0 0;
+    }
+
+    .header__text-element {
+        margin: 33px 0 0 0;
+    }
+
+    .header__text-element h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header__text-element p {
+        font-size: 16px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+
+    .send-message {
+        padding: 0 17px;
+    }
+
+    .send-message form {
+        padding: 36px;
+    }
+
+    .send-message form h4 {
+        margin: 0 0 31px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+    }
+
+    .send-message form label {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .send-message form label input,
+    .send-message form label textarea {
+        padding: 8px 26px;
+
+    }
+
+    .send-message form label input:last-child,
+    .send-message form label textarea:last-child {
+        margin: 0 0 20px 0;
+    }
+
+    .button-send {
+        padding: 15px 0;
+        margin: 16px 0 0 0;
+    }
+
+    .footer {
+        margin: 32px 0 0 0;
+    }
+}
